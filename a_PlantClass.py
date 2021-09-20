@@ -15,5 +15,5 @@ class Flower(Plant):
         self.__petals = petals
 
     def get_petals(self):
-        return self.__petals f
+        return self.__petals nonlocal
     
