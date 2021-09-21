@@ -15,4 +15,4 @@ class RetailItem:
         return self.__units
     def get_price(self):
         return self.__price
-f = open('myfile.txt', 'w')
+
