@@ -12,5 +12,8 @@ item3des = input('please enter a description for item 3')
 item1 = Retail_class.RetailItem(item1des,item1units,Item1Price)
 item2 = Retail_class.RetailItem(item2des,item2units,Item2Price)
 item3 = Retail_class.RetailItem(item3des,item3units,Item3price)
+itemlist = [item1,item2,item3]
 print('item summary')
-print
+
+print('Item1')
+print('price: $',item1.get_price(),' ','units:',item1.get_units(),'description:',item1.get_description(),)
